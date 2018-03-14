@@ -1,0 +1,24 @@
+MobileOnly = "(max-width: 769px)"
+TabletUp = "(min-width: 769px)"
+TabletDown = "(max-width: 1024px)"
+TabletOnly = "(min-width: 769px) and (max-width: 1024px)"
+DesktopOnly = "(min-width: 1024px)"
+
+center(axis, position)
+	position position
+
+	if ((axis == "X"))
+		left 50%
+		transform translateX(-50%)
+	else if ((axis == "Y"))
+		top 50%
+		transform translateY(-50%)
+	else if ((axis == "XY"))
+		top 50%
+		left 50%
+		transform translate(-50%, -50%)
+
+.clearfix:after
+	content ""
+	display block
+	clear both

@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "es2015",
+		"module": "es2015",
+		"strict": true,
+		"strictPropertyInitialization": false,
+		"noImplicitThis": false,
+		"jsx": "preserve",
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"baseUrl": ".",
+		"types": ["node"],
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"lib": ["es2017", "dom", "esnext.asynciterable"]
+	},
+	"include": ["src/**/*.ts", "src/**/*.vue", "test/**/*.ts"],
+	"exclude": ["node_modules"]
+}
