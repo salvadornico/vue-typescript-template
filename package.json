@@ -2,7 +2,7 @@
 	"name": "vue-typescript-template",
 	"version": "1.0.0",
 	"private": true,
-	"main": "index.html",
+	"main": "public/index.html",
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
@@ -34,10 +34,6 @@
 		"typescript": "^2.7.2",
 		"vue-template-compiler": "^2.5.13"
 	},
-	"browserslist": [
-		"> 1%",
-		"last 2 versions",
-		"not ie <= 8"
-	],
+	"browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
 	"license": "MIT"
 }
