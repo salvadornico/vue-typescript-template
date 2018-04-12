@@ -2,7 +2,7 @@
 	"name": "vue-typescript-template",
 	"version": "1.0.0",
 	"private": true,
-	"main": "src/main.ts",
+	"main": "index.html",
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
