@@ -16,8 +16,8 @@ import { Component } from "vue-property-decorator"
 export default class App extends Vue {}
 </script>
 
-<style lang="stylus" scoped>
-h1
+<style lang="stylus">
+#app h1
 	center(XY, absolute)
 </style>
 
