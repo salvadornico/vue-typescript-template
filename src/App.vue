@@ -9,9 +9,9 @@ import Vue from "vue"
 import { Component } from "vue-property-decorator"
 
 @Component({
-	metaInfo: () => ({
+	metaInfo: {
 		titleTemplate: "%s | Vue Typescript Template",
-	}),
+	},
 })
 export default class App extends Vue {}
 </script>
