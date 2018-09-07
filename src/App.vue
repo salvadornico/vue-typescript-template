@@ -20,4 +20,3 @@ export default class App extends Vue {}
 #app h1
 	center(XY, absolute)
 </style>
-
